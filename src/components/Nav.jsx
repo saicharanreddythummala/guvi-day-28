@@ -6,7 +6,7 @@ export default function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <a className="navbar-brand">CRUD-formik</a>
+        <Link to='/' className="navbar-brand">CRUD-formik</Link>
         <button
           className="navbar-toggler"
           type="button"
